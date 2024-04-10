@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+   <style>
+    .ground{
+        background-size: 100%,100%;
+        position: absolute;
+        
+    }
+
+    .image{
+        background-size: 100% , 100%;
+    }
+
+    .navbar{
+
+       
+        animation: 0.9s  ease-out top_up;
+        
+    }
+
+    @keyframes top_up {
+
+        0%{
+            transform: translateY(-50px);
+        }  
+        100%{
+            transform: translateY(0);
+        }
+        
+        
+    }
+
+    .vshape{
+        animation: 2s linear vshape;
+        transition: all 2s linear 0s;
+    }
+
+    @keyframes vshape {
+
+        0%{
+            top: 0;
+            left: 0%;
+            right: 0%;
+            bottom: 0%;
+            transform: scale(8);
+        }
+
+        100%{
+
+        }
+        
+    }
+
+    .gradient{
+
+        background: rgb(6,0,0);
+background: linear-gradient(180deg, rgba(6,0,0,1) 64%, rgb(29, 3, 6) 100%);
+        width: 100%;
+        height: 100%;
+    }
+
+    
+   </style>
+
+  
+</head>
+<body>
+     <main class="  h-[100%] w-full max-w-[2160px]  max-h-[100%] overflow-x-hidden bg-[#720D0D] " >
+
+
+
+      <div class="max-w-[2160px]  mx-auto relative h-[100%] max-h-[100%]">
+
+
+        <img src="./images/hero-background.0123933b.svg" alt=""
+        height="100%"
+        width="100%"
+        class="absolute top-0 right-0 left-0 bottom-0 object-cover image "
+        style="color: transparent; height: 100%; ">
+
+        <img src="./images/Rectangle.9412a4fe.svg" alt=""
+        class="image"
+        
+        style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;
+        color:transparent;mix-blend-mode:color-burn; ">
+
+
+        
+
+                     <!--nav bar-->
+
+                     <nav class=" flex w-full  justify-center items-center gap-[6rem] navbar">
+
+                        <div class="relative group transition-all duration-300 cursor-pointer py-7">
+        
+                            <p class="text-[#FFFFFF] text-[24px]  font-bold pb-1 px-1 ">Home</p>
+        
+                            <div class="w-full h-0.5 absolute bg-white  hidden  group-hover:block bottom-8 "></div>
+                            
+        
+                        </div>
+        
+                        <div class="relative group transition-all duration-300 cursor-pointer py-7">
+        
+                            <p class="text-[#FFFFFF] text-[24px]  font-bold pb-1 px-1 ">Themes</p>
+        
+                            <div class="w-full h-0.5 absolute bg-white  hidden  group-hover:block bottom-8 "></div>
+                            
+        
+                        </div>
+        
+                        <div class="relative group transition-all duration-300 cursor-pointer py-7">
+        
+                            <p class="text-[#FFFFFF] text-[24px]  font-bold pb-1 px-1 ">TimeLine</p>
+        
+                            <div class="w-full h-0.5 absolute bg-white  hidden  group-hover:block bottom-8 "></div>
+                            
+        
+                        </div>
+        
+                        <div class="relative group transition-all duration-300 cursor-pointer py-7">
+        
+                            <p class="text-[#FFFFFF] text-[24px]  font-bold pb-1 px-1 ">Rule</p>
+        
+                            <div class="w-full h-0.5 absolute bg-white  hidden  group-hover:block bottom-8 "></div>
+                            
+        
+                        </div>
+        
+                        <div class="relative group transition-all duration-300 cursor-pointer py-7">
+        
+                            <p class="text-[#FFFFFF] text-[24px]  font-bold pb-1 px-1 ">Sponsors</p>
+        
+                            <div class="w-full h-0.5 absolute bg-white  hidden  group-hover:block bottom-8 "></div>
+                            
+        
+                        </div>
+        
+                        <div class="relative group transition-all duration-300 cursor-pointer py-7">
+        
+                            <p class="text-[#FFFFFF] text-[24px]  font-bold pb-1 px-1 ">Contact US</p>
+        
+                            <div class="w-full h-0.5 absolute bg-white  hidden  group-hover:block bottom-8 "></div>
+                            
+        
+                        </div>
+        
+            
+                    </nav>
+        
+                        <!--byte--->
+        
+                    <div class=" h-fit  mx-auto  " >
+        
+                        <div class=" w-1/2" >
+        
+                        <img loading="lazy" width="483px" height="165px"  class="absolute top-48 left-44 z-50 " style=" filter: invert(100%);"
+                         src="./images/byte.eb023d80.svg"
+                         >
+                        </div>
+        
+                    </div>
+        
+                    <!--erse -->
+        
+                    <div class="flex justify-center items-center w-max  space-x-60  h-fit  mx-auto z-50 " >
+        
+                        <div class=" w-1/2" style="transform: none;">
+                            <img  loading="lazy" width="467px" height="144px"  class="absolute top-48 right-44 z-50 " style=" filter: invert(100%);"
+                             src="./images/erse.7ea39981.svg">
+                            
+                            </div>
+        
+                        </div>
+                  
+                   
+        
+                    <!--sun and v-->
+        
+                        <div class="relative mx-auto flex justify-center items-center  z-40  ">
+                       
+                                <img src="./images/sun.5e882e6d.svg" alt=""
+                            width="336"
+                            height="336"
+                            class="relative flex justify-center items-center">
+                       
+        
+                       
+                            <img src="./images/v.1401232f.svg" alt=""
+                            width="500"
+                            height="207"
+                            class="absolute  flex justify-center items-center top-20 vshape">
+                            
+                       
+                     </div>
+        
+                     <!--countdown section-->
+        
+                     <div class="w-max h-full mx-auto relative  z-50 bottom-14">
+        
+                        <h2 class="font-bold text-4xl text-white uppercase text-center opacity-85 tracking-wide ">
+                            countdown
+                        </h2>
+        
+                       <div  class="flex flex-row mt-6 space-x-5">
+
+
+                        <div  class="flex flex-col gap-0.2 justify-center items-center border rounded-lg p-2 bg-[#500d0dc3] shadow-[#2c1313]">
+                            <div id="countdown" class="font-bold text-white text-4xl mx-1 p-2 ">9</div>
+                            <div class="font-semibold text-white text-1xl">Days</div>
+                           </div>
+                           
+                           <div   class="flex flex-col gap-0.8 justify-center items-center border rounded-lg p-2 bg-[#500d0dc3] shadow-[#2c1313]">
+                            <div  id="countdown2" class="font-bold text-white text-4xl mx-1 p-2 ">7</div>
+                            <div class="font-semibold text-white text-1xl">Hours</div>
+                           </div>
+                           
+                           <div  class="flex flex-col gap-1 justify-center items-center border rounded-lg p-2 bg-[#500d0dc3] shadow-[#2c1313]">
+                            <div id="countdown3" class="font-bold text-white text-4xl mx-1 p-2 ">10</div>
+                            <div class="font-semibold text-white text-1xl">minutes</div>
+                           </div>
+                           
+                           <div  class="flex flex-col gap-1 justify-center items-center border rounded-lg p-2 bg-[#500d0dc3] shadow-[#2c1313] ">
+                            <div id="countdown4" class="font-bold text-white text-4xl mx-1 p-2 ">59</div>
+                            <div class="font-semibold text-white text-1xl">seconds</div>
+                           </div>
+
+                       </div>
+                     </div>
+
+                     <!--devfolio button-->
+
+               <button class=" bg-slate-800 mx-auto   relative flex flex-row  items-center justify-center space-x-2
+                 p-3 bottom-6 rounded-lg px-16 ">
+
+                <svg class="logo h-8 w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.46 123.46" fill="#fff">
+                    <path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 
+                                12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 
+                                13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 
+                                2.18.08 3.34z"></path>
+                    <path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 
+                                104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 
+                                55.41 0 0 1 50.58 55.34z"></path>
+                    </svg>
+
+                <div>
+                    <span class="text-white font-semibold w-max text-2xl  ">Apply with Devfolio</span>
+                </div>
+               </button>
+
+               <!--ground image-->
+               <div class="relative flex flex-col bottom-0 -space-y-9">
+
+                <div class="relative flex justify-between px-4 ">
+
+                    <img src="./images/ninja.3995e5fe.svg" alt=""
+                    width="261px"
+                    height="758px"
+                    class="w-72 absolute bottom-[0.2rem] left-4">
+                   
+                    <img src="./images/castle.4de20884.svg" alt=""
+                    width="361"
+                    height="673"
+                    class="w-72 h-[499px] absolute bottom-[0rem] right-10">
+    
+                   </div>
+
+                   <div class="relative flex">
+
+                    <img src="./images/ground.9d39d2ca.svg" alt=""
+                    width="1728px"
+                    height="228px"
+                    class=" object-cover  ">
+    
+    
+                   </div>
+
+
+               </div>
+
+        </div>
+
+
+        <!--down part 01-->
+
+        <div class="  h-[2400px]  p-4 relative gradient flex flex-col w-max mx-auto ">
+
+
+            <div class="w-max mx-auto mt-4">
+                
+                <img src="images/image.webp" alt=""
+                width="1050"
+                height="192">
+
+            </div>
+
+            <div>
+
+                <div class="w-max mx-auto flex flex-row space-x-40 mt-8">
+
+                    <div class=" rounded-md bg-[#541E1E66] shadow-md shadow-[#ffe1683c] px-20 mt-3 flex flex-col  py-12
+                    justify-center my-auto items-center">
+
+                        <p class="text-6xl text-[#D1A878] font-bold my-0">6+</p>
+                        <p class=" text-2xl text-white font-bold">Themes</p>
+                    </div>
+    
+                    <div class=" rounded-md bg-[#541E1E66] shadow-md shadow-[#ffe1683c] px-20 mt-3 flex flex-col  py-12
+                    justify-center my-auto items-center">
+
+                        <p class="text-6xl text-[#D1A878] font-bold my-0">36+</p>
+                        <p class=" text-2xl text-white font-bold">Hours Of Hacking</p>
+                    </div>
+    
+                    <div class=" rounded-md bg-[#541E1E66] shadow-md shadow-[#ffe1683c] px-20 mt-3 flex flex-col  py-12
+                    justify-center my-auto items-center">
+
+                        <p class="text-6xl text-[#D1A878] font-bold my-0">1800+</p>
+                        <p class=" text-2xl text-white font-bold">Participants</p>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-row max-w-[2160px ] w-full mx-auto
+                 mt-7 gap-12">
+
+                    <div class="flex flex-col bg-[#70363666]  rounded-2xl px-12 py-12 text-sm shadow-lg shadow-[#8484843c] text-opacity-90 font-thin
+                     text-slate-100     
+                     hide-scroll  justify-center  w-[590px] space-y-10 ml-28 mt-5 ">
+
+                        <h2 class=" font-bold text-3xl text-white text-center pt-12 ">
+                            Byteverse: Unleash your <br> coding magic!
+                        </h2>
+                        <p class="text-white text-xl  ">
+                            Calling all tech wizards, problem solvers, and creative minds! Byteverse, the annual hackathon by Hackslash NITP, 
+                            returns for its sixth edition. 
+                            This electrifying event is where innovation meets code and your creativity knows no bounds.
+                        </p>
+                    </div>
+
+                    <div class="  relative  bg-[#70363666] shadow-lg shadow-[#8484843c] rounded-lg w-[650px] mt-4 ">
+
+                        <img src="./images/image (2).webp" alt=""
+                        class="object-cover  rounded-md transition-opacity duration-1000">
+
+                        
+                        
+
+
+                        
+                    </div>
+
+
+                    
+                </div>
+            </div>
+           </div>
+
+
+        
+
+      
+            
+     
+
+        
+     </main>
+
+
+     <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("April 9, 2024 15:37:25").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element with id="demo"
+          document.getElementById("countdown").innerHTML = days + "d " 
+          document.getElementById("countdown2").innerHTML = hours + "h "
+          document.getElementById("countdown3").innerHTML = minutes + "m " 
+          document.getElementById("countdown4").innerHTML = seconds + "s ";
+        
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+    
+</body>
+</html>
